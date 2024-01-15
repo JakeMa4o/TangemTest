@@ -138,7 +138,7 @@ main {
   right: 1rem;
   color: #ffffff;
   cursor: pointer;
-  z-index: 2;
+  z-index: 100;
 }
 
 .closeBtn-desktop {

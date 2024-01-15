@@ -7,6 +7,7 @@ const closeBtn = document.querySelector(".closeBtn");
 
 
 closeBtn.addEventListener("click", () => {
+  console.log("clicked");
   localStorage.setItem("showPopup", "false");
   secondBanner.classList.remove("show"); 
 })
